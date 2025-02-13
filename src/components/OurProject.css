@@ -1,0 +1,31 @@
+.OurProjects{
+    text-align: center;
+    padding: 40px 20px;
+}
+.OurProjects h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.OurProjects p{
+    font-size:16px ;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+
+}
+.project{
+    background:#fff ;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.288);
+}
+.project img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
